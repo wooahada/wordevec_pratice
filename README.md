@@ -28,7 +28,8 @@ NLP기본인 Text Embedding 텍스트 임베딩을 공부하고 실습해본다.
 이 밀집 벡터를 워드 임베딩 과정을 통해 나온 결과라고 하여 임베딩 벡터(embedding vector)라고도 함
 
 희소백터(sparse vector)
-벡터 또는 행렬(matrix)의 값이 대부분이 0으로 표현되는 방법을 희소 표현(sparse representation) 혹은 희소백터(sparse vector)
+벡터 또는 행렬(matrix)의 값이 대부분이 0으로 표현되는 방법을 
+희소 표현(sparse representation) 혹은 희소백터(sparse vector)
 원-핫 벡터는 희소 벡터(sparse vector)임
 -> 단어간 유사도를 표현하지 못함
 
@@ -42,7 +43,8 @@ NLP기본인 Text Embedding 텍스트 임베딩을 공부하고 실습해본다.
 
 분산 표현(distributed representation)
 단어간 유사성을 표현할 수 없다는 단점의 해결책
-->단어의 '의미'를 다차원 공간에 벡터화하는 방법이 분산 표현(distributed representation)
+->단어의 '의미'를 다차원 공간에 벡터화하는 방법이 
+분산 표현(distributed representation)
 '비슷한 위치에서 등장하는 단어들은 비슷한 의미를 가진다' 
 분포 가설(distributional hypothesis)이라는 가정 하에 만들어진 표현 방법.
 
@@ -61,5 +63,6 @@ NLP기본인 Text Embedding 텍스트 임베딩을 공부하고 실습해본다.
 2. 네이버 영화평 word2vec 만들기
 
 네이버에서 영화평을 쓴 사람들의 text의 데이터로 학습시킴
+
 특정 단어를 입력하면 유사한 단어들을 보여줌
 
